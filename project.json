@@ -1,0 +1,21 @@
+{
+  "id": 873,
+  "title": "Delivery Route Trainer Live Telemetry",
+  "repository_slug": "delivery-route-trainer-live-telemetry",
+  "category": "Drones",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 24,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "payload servo",
+    "telemetry radio",
+    "barometer"
+  ],
+  "scope": "Build a drones prototype that uses payload servo, telemetry radio, barometer to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "firmware/delivery-route-trainer-live-telemetry/delivery-route-trainer-live-telemetry.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
